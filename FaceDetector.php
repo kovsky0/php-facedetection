@@ -71,7 +71,7 @@ class FaceDetector
 
             $this->canvas = imagecreatefromjpeg($file);
 
-        } elseif (is_string($file)) {
+        } elseif (is_string($file) OR filter_var($file, FILTER_VALIDATE_URL)) {
 
             $this->canvas = imagecreatefromstring($file);
             
