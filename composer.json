@@ -7,6 +7,10 @@
         {
             "name": "Maurice Svay",
             "homepage": "https://github.com/mauricesvay/php-facedetection/graphs/contributors"
+        },
+        {
+            "name": "Daniel Wyrzykowski",
+            "homepage": "https://github.com/kovsky0"
         }
     ],
     "require": {
